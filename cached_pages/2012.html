@@ -1,0 +1,638 @@
+<style>
+<!--
+/* Style for calendar container */
+table.calendar {
+    border: 1px black solid;
+    width: 980px; /* Container's width will be box width multiplied by number of days in week */
+}
+
+/* Style for calendar container caption */
+table.calendar caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style for calendar weekdays data row */
+table.calendar thead tr {
+    background-color: #A7A37E;
+}
+
+/* Style for calendar weekday data container */
+table.calendar thead tr th {
+    text-align: center;
+    width: 140px; /* Container's width will be same as box dimension */
+}
+
+/* Style for calendar days data row */
+table.calendar tbody tr {
+    background-color: #DBD7A8;
+    height: 140px; /* Container's height will be same as box dimension */
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Style for calendar day data container */
+table.calendar tbody tr td div {
+    background-color: #BFBC94;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Style for calendar day data container which is semi-transparent */
+table.calendar tbody tr td div.semi-transparent {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+/* Style for calendar day posts container */
+table.calendar tbody tr td ul {
+    height: 115px; /* Posts container's height will be 25 pixels less than box dimension by considering day number container's height */
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+/* Style for calendar day posts container on hovering */
+table.calendar tbody tr td ul:hover {
+    overflow-y: auto;
+}
+
+/* Style for calendar day posts data container which has background image */
+table.calendar tbody tr td ul.invisible {
+    visibility: hidden;
+}
+
+/* Style for calendar day posts data container which has background image on hovering */
+table.calendar tbody tr td:hover ul.invisible {
+    visibility: visible;
+}
+
+/* Style for calendar day post data */
+table.calendar tbody tr td ul li {
+    list-style: none;
+    margin: 3px;
+    padding-bottom: 3px;
+}
+
+/* Style for calendar day post data which has background image */
+table.calendar tbody tr td ul.invisible li {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+    filter: alpha(opacity=35);
+    opacity: 0.35;
+}
+
+/* Style for calendar day post data on hovering */
+table.calendar tbody tr td ul li:hover, table.calendar tbody tr td ul.invisible li {
+    background-color: #EEEEEE;
+}
+
+/* Style for calendar day post data which is semi-transparent on hovering */
+table.calendar tbody tr td:hover ul.invisible li:hover {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+}
+
+/* Style for calendar day post data link */
+table.calendar tbody tr td ul li a {
+    font-size: 9px;
+}
+
+/* Style for calendar day post data link on hovering */
+table.calendar tbody tr td ul li:hover a, table.calendar tbody tr td ul.invisible li a {
+    color: #000000;
+}
+
+/* Style for calendar day post data link on hovering link */
+table.calendar tbody tr td ul li:hover a:hover {
+    color: red;
+}
+//-->
+</style>View calendar for year <a href="http://scottnath.com/calendar-archive/?calendar_year=2012">2012</a> <a href="http://scottnath.com/calendar-archive/?calendar_year=2011">2011</a> <a href="http://scottnath.com/calendar-archive/?calendar_year=2010">2010</a> <a href="http://scottnath.com/calendar-archive/?calendar_year=2009">2009</a> <a href="http://scottnath.com/calendar-archive/?calendar_year=2008">2008</a> <a href="http://scottnath.com/calendar-archive/?calendar_year=2007">2007</a> <a href="http://scottnath.com/calendar-archive/?calendar_year=2006">2006</a> <a href="http://scottnath.com/calendar-archive/?calendar_year=2005">2005</a><table cellspacing="1" class="calendar">
+    <caption>June 2012</caption>
+    <thead>
+        <tr>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                <div>1</div>
+            </td>
+            <td>
+                <div>2</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>3</div>
+            </td>
+            <td>
+                <div>4</div>
+            </td>
+            <td>
+                <div>5</div>
+            </td>
+            <td>
+                <div>6</div>
+            </td>
+            <td>
+                <div>7</div>
+            </td>
+            <td>
+                <div>8</div>
+            </td>
+            <td>
+                <div>9</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>10</div>
+            </td>
+            <td>
+                <div>11</div>
+            </td>
+            <td>
+                <div>12</div>
+            </td>
+            <td>
+                <div>13</div>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1378-f0935afb280d382fe93e5662274c5ebb-140.jpg);">
+                <div class="semi-transparent">14</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/06/14/punta-cana-arrival-day/">Punta Cana arrival day</a></li>
+                </ul>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1385-0e628fb53b95e46b2446a4b35d2446a7-140.jpg);">
+                <div class="semi-transparent">15</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/06/15/zip-lining-tour-with-canopy-adventures/">Zip-lining tour with Canopy Adventures</a></li>
+                    <li><a href="http://scottnath.com/2012/06/15/pre-rehearsal-time-on-the-beach/">Pre-rehearsal time on the beach</a></li>
+                    <li><a href="http://scottnath.com/2012/06/15/julie-and-marks-wedding-rehearsal/">Julie and Mark's Wedding Rehearsal</a></li>
+                    <li><a href="http://scottnath.com/2012/06/15/julie-y-marks-rehearsal-dinner/">Julie y Mark's Rehearsal Dinner</a></li>
+                </ul>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1404-3df18a0e91ffe3bdc24b2a06217db6a4-140.jpg);">
+                <div class="semi-transparent">16</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/06/16/julie-y-marks-wedding-day/">Julie y Mark's Wedding Day</a></li>
+                    <li><a href="http://scottnath.com/2012/06/16/julie-y-mark-wedding-reception/">Julie y Mark Wedding Reception</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1410-50097cc449a41e243b2e12544d804f5f-140.jpg);">
+                <div class="semi-transparent">17</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/06/17/julie-y-mark-the-next-day/">Julie y Mark the next day...</a></li>
+                </ul>
+            </td>
+            <td>
+                <div>18</div>
+            </td>
+            <td>
+                <div>19</div>
+            </td>
+            <td>
+                <div>20</div>
+            </td>
+            <td>
+                <div>21</div>
+            </td>
+            <td>
+                <div>22</div>
+            </td>
+            <td>
+                <div>23</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>24</div>
+            </td>
+            <td>
+                <div>25</div>
+            </td>
+            <td>
+                <div>26</div>
+            </td>
+            <td>
+                <div>27</div>
+            </td>
+            <td>
+                <div>28</div>
+            </td>
+            <td>
+                <div>29</div>
+            </td>
+            <td>
+                <div>30</div>
+            </td>
+        </tr>
+    </tbody>
+</table><br />
+<table cellspacing="1" class="calendar">
+    <caption>April 2012</caption>
+    <thead>
+        <tr>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div>1</div>
+            </td>
+            <td>
+                <div>2</div>
+            </td>
+            <td>
+                <div>3</div>
+            </td>
+            <td>
+                <div>4</div>
+            </td>
+            <td>
+                <div>5</div>
+            </td>
+            <td>
+                <div>6</div>
+            </td>
+            <td>
+                <div>7</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>8</div>
+            </td>
+            <td>
+                <div>9</div>
+            </td>
+            <td>
+                <div>10</div>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1373-fbd58dab95e88ce12d3c302bbacf8f43-140.jpg);">
+                <div class="semi-transparent">11</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/04/11/easter-sunday/">Easter Sunday!!!</a></li>
+                </ul>
+            </td>
+            <td>
+                <div>12</div>
+            </td>
+            <td>
+                <div>13</div>
+            </td>
+            <td>
+                <div>14</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>15</div>
+            </td>
+            <td>
+                <div>16</div>
+            </td>
+            <td>
+                <div>17</div>
+            </td>
+            <td>
+                <div>18</div>
+            </td>
+            <td>
+                <div>19</div>
+            </td>
+            <td>
+                <div>20</div>
+            </td>
+            <td>
+                <div>21</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>22</div>
+            </td>
+            <td>
+                <div>23</div>
+            </td>
+            <td>
+                <div>24</div>
+            </td>
+            <td>
+                <div>25</div>
+            </td>
+            <td>
+                <div>26</div>
+            </td>
+            <td>
+                <div>27</div>
+            </td>
+            <td>
+                <div>28</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>29</div>
+            </td>
+            <td>
+                <div>30</div>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table><br />
+<table cellspacing="1" class="calendar">
+    <caption>March 2012</caption>
+    <thead>
+        <tr>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                <div>1</div>
+            </td>
+            <td>
+                <div>2</div>
+            </td>
+            <td>
+                <div>3</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>4</div>
+            </td>
+            <td>
+                <div>5</div>
+            </td>
+            <td>
+                <div>6</div>
+            </td>
+            <td>
+                <div>7</div>
+            </td>
+            <td>
+                <div>8</div>
+            </td>
+            <td>
+                <div>9</div>
+            </td>
+            <td>
+                <div>10</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>11</div>
+            </td>
+            <td>
+                <div>12</div>
+            </td>
+            <td>
+                <div>13</div>
+            </td>
+            <td>
+                <div>14</div>
+            </td>
+            <td>
+                <div>15</div>
+            </td>
+            <td>
+                <div>16</div>
+            </td>
+            <td>
+                <div>17</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>18</div>
+            </td>
+            <td>
+                <div>19</div>
+            </td>
+            <td>
+                <div>20</div>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1355-c978689df1d8a1216e4090e1ea20189f-140.jpg);">
+                <div class="semi-transparent">21</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/03/21/puerto-rico-travel-day/">Puerto Rico: Travel Day</a></li>
+                </ul>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1359-c2382222f85baa1f63c22de1490a7894-140.jpg);">
+                <div class="semi-transparent">22</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/03/22/1st-day-in-vieques-puerto-rico/">1st Day in Vieques, Puerto Rico</a></li>
+                </ul>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1362-2202b46b3485605a9929522832ac2467-140.jpg);">
+                <div class="semi-transparent">23</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/03/23/vieques-yoga-snorkeling-bio-bay-tour/">Vieques: yoga, snorkeling, bio bay tour</a></li>
+                </ul>
+            </td>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1365-9ff2a4e23bb37c7fa253414d46f14d14-140.jpg);">
+                <div class="semi-transparent">24</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/03/24/a-perfect-vieques-day/">A perfect Vieques Day</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1369-fdf7399420e8251b73d8c1d40af8c223-140.jpg);">
+                <div class="semi-transparent">25</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/03/25/final-night-in-san-juan-puerto-rico/">Final night in San Juan, Puerto Rico</a></li>
+                </ul>
+            </td>
+            <td>
+                <div>26</div>
+            </td>
+            <td>
+                <div>27</div>
+            </td>
+            <td>
+                <div>28</div>
+            </td>
+            <td>
+                <div>29</div>
+            </td>
+            <td>
+                <div>30</div>
+            </td>
+            <td>
+                <div>31</div>
+            </td>
+        </tr>
+    </tbody>
+</table><br />
+<table cellspacing="1" class="calendar">
+    <caption>January 2012</caption>
+    <thead>
+        <tr>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="background-image: url(http://scottnath.com/blog/wp-content/plugins/calendar-archives/cached_images/1345-9bca461dc198abec3349663a2c933dc2-140.jpg);">
+                <div class="semi-transparent">1</div>
+                <ul class="invisible">
+                    <li><a href="http://scottnath.com/2012/01/01/new-years-day/">New Year's Day</a></li>
+                </ul>
+            </td>
+            <td>
+                <div>2</div>
+            </td>
+            <td>
+                <div>3</div>
+            </td>
+            <td>
+                <div>4</div>
+            </td>
+            <td>
+                <div>5</div>
+            </td>
+            <td>
+                <div>6</div>
+            </td>
+            <td>
+                <div>7</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>8</div>
+            </td>
+            <td>
+                <div>9</div>
+            </td>
+            <td>
+                <div>10</div>
+            </td>
+            <td>
+                <div>11</div>
+            </td>
+            <td>
+                <div>12</div>
+            </td>
+            <td>
+                <div>13</div>
+            </td>
+            <td>
+                <div>14</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>15</div>
+            </td>
+            <td>
+                <div>16</div>
+            </td>
+            <td>
+                <div>17</div>
+            </td>
+            <td>
+                <div>18</div>
+            </td>
+            <td>
+                <div>19</div>
+            </td>
+            <td>
+                <div>20</div>
+            </td>
+            <td>
+                <div>21</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>22</div>
+            </td>
+            <td>
+                <div>23</div>
+            </td>
+            <td>
+                <div>24</div>
+            </td>
+            <td>
+                <div>25</div>
+            </td>
+            <td>
+                <div>26</div>
+            </td>
+            <td>
+                <div>27</div>
+            </td>
+            <td>
+                <div>28</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>29</div>
+            </td>
+            <td>
+                <div>30</div>
+            </td>
+            <td>
+                <div>31</div>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table><br />
+<!-- cached -->
